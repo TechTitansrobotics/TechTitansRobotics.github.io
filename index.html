@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TechTitans</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Bienvenido a TechTitans.</h1>
+      <nav>
+        <ul class="contenedorul">
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#aboutUs">Acerca de</a></li>
+          <li><a href="#Integrantes">Integrantes</a></li>
+          <li><a href="#Descargar">Descargar Libro de Ingenieria</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="home">
+      <embed class="pdfview" src="Libro de Ingenieria.pdf" type="application/pdf" width="100%" height="300px">
+      </div>
+  
+      <div id="aboutUs">
+      <div class="sobrenosotros">
+      <h2>Sobre nosotros</h2><br>
+      </div>
+      <div class="sobrenos">
+        <p>Somos un equipo de robotica VEX Colombia, que ganó en el nacional de 2022, el  premio de mejor diseño y programación
+          ¡BEST FOREVER!
+        </p>
+        <br>
+      </div>
+    </div>
+  
+    <div id="Integrantes" class="Int">
+      <br><p>Integrantes</p><br>
+    </div>
+    <div class="Integrantescontenedor">
+      <div class="Alejo">
+        <p class="nombres">Alejandro</p>
+        <img id="imagenAlejo" src="yo.jpg">
+        <p id="descripcionAlejo" class="Descripciones" style="display: none;">Tiene 13 años y es el encargado de la pagina web, el proyecto de investigación y parte de programación de el robot</p>
+      </div>
+      <div class="Mati">
+        <p class="nombres">Matias</p>
+        <img id="imagenMati" src="Matias.jpg">
+        <p id="descripcionMati" class="Descripciones" style="display: none;">Tiene 13 años y es el encargado de el diseño 3D y dibujo tecnico del robot</p>
+      </div>
+      <div class="Santi">
+        <p class="nombres">Santiago</p>
+        <img id="imagenSanti" src="Santi.jpg">
+        <p id="descripcionSanti" class="Descripciones" style="display: none;">Tiene 13 años y es uno de los constructores del equipo y tambien encargado en parte de la programación de el robot</p>
+      </div>
+      <div class="Pipe">
+        <p class="nombres">Juan Felipe</p>
+        <img id="imagenPipe" src="Pipe.jpg">
+        <p id="descripcionPipe" class="Descripciones" style="display: none;">Tiene 12 años y es el segundo constructor del equipo</p>
+      </div>
+    </div>
+    
+    <script>
+    function toggleDescription(id) {
+      var descripcion = document.getElementById(id);
+      if (descripcion.style.display === 'none') {
+        descripcion.style.display = 'block';
+      } else {
+        descripcion.style.display = 'none';
+      }
+    }
+    
+    document.getElementById('imagenAlejo').addEventListener('click', function() { toggleDescription('descripcionAlejo'); });
+    document.getElementById('imagenMati').addEventListener('click', function() { toggleDescription('descripcionMati'); });
+    document.getElementById('imagenSanti').addEventListener('click', function() { toggleDescription('descripcionSanti'); });
+    document.getElementById('imagenPipe').addEventListener('click', function() { toggleDescription('descripcionPipe'); });
+    </script>
+    
+  
+  
+  
+  <div id="Descargar">
+      <br>
+      <br>
+      <br>
+      <footer>
+        <a href="Libro de Ingenieria.pdf" download="Libro de ingenieria.pdf">Descargar Libro de Ingenieria</a>
+        <p>&copy; 2023 TechTitans</p>
+      </footer>
+    </div>
+  
+    </body>
+  </html>
+
+  </body>
+</html>
+
+
+

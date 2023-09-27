@@ -1,0 +1,237 @@
+/* Pdf parte */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F0EAD6;
+  font-size: 14px;
+}
+
+header {
+  color: #000;
+  padding: 10px 0;
+}
+
+.title {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #333;
+}
+
+
+.contenedorul {
+  display: flex;
+  justify-content: space-between;
+  width: calc(93% - 20px);
+  
+}
+
+.contenedorul a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pdfview {
+  animation: fadeIn 3s;
+  margin: auto;
+  display: block;
+  width: calc(93% - 20px);
+  height: calc(100vh - 20px);
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.2), 
+              0px 3px 10px rgba(0,0,0,0.19);
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F0EAD6;
+}
+
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #acaf4c;
+  border-color: #acaf4c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #898e3e;
+}
+
+a {
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid #4CAF50;
+  transition: background-color 0.2s;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex
+}
+
+nav li {
+margin-right :10px
+
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display:flex
+}
+
+footer li {
+  margin-right :10px
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+
+footer {
+  text-align: center;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+header, main, footer {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+}
+
+nav ul {
+list-style: none;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+
+nav li {
+display: inline-block;
+margin: 0 10px;
+}
+
+.contenedorul{
+display: flex;
+justify-content: space-between;
+margin: 0% 27%;
+}
+
+.sobrenosotros {
+display: flex;
+justify-content: center;
+font-size: 25px;
+}
+.sobrenos {
+text-align: center;
+font-size: 20px;
+}
+
+.nombres {
+font-size: 25px;
+color: red;
+}
+
+.Descripciones {
+color:black;
+}
+
+.Int {
+text-align: center;
+font-size: 300%;
+}
+.Integrantescontenedor {
+display: flex;
+margin: 0% 2%;
+}
+
+img {
+width: 450px;
+height: 600px;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+.Integrantescontenedor {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.Alejo, .Mati, .Santi, .Pipe {
+width: 300px;
+margin: 20px;
+text-align: center;
+}
+
+.nombres {
+font-size: 25px;
+font-weight: bold;
+}
+
+img {
+width: 100%;
+height: auto;
+}
+
+.Descripciones {
+background-color: #f8f9fa;
+padding: 15px;
+border-radius: 5px;
+}
+
+
+
+
